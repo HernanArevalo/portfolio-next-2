@@ -1,0 +1,162 @@
+{ 	"en":{
+  "home":{
+    "title":"Me",
+    "name":"Hernán Arévalo",
+    "charge":"Frontend Developer",
+    "studies1":"Student of Information Systems Engineering.",
+    "studies2":"B2 English level.",
+    "studies3":"Software developer.",
+    "location":"Córdoba, Argentina"
+  },
+  "me":{
+    "title":"About me",
+    "description0":"&emsp;&emsp;Hi! I'm <b>Hernán</b>, a student of <b>Systems Engineering</b> who is also immersed in the world of <b>web development</b>.<br/>&emsp;&emsp;Ever since I was a child, I've been a curious individual with a deepassion for understanding how things work. Today, I apply that same passion to learning new <b>technological solutions</b> and applying that knowledge to fresh challenges.<br/>&emsp;&emsp;Currently, I handle the <b>frontend</b> aspect of my projects using <b>React</b> and <b>Next.js</b>.<br/>&emsp;&emsp;I've also had the opportunity to develop projects with <b>Python</b> and native <b>JavaScript</b>, as well as creating the <b>backend</b> for an application using MongoDB, Express, and Node.",
+    "description1":"Currently developing with React and Next",
+    "description2":"Looking to be part of a great team and collaborate on exciting projects",
+    "description3":"Constantly seeking ways to improve my skills and offer innovative solutions to technical challenges",
+    "description4":"Passionate learner of new technologies and tools",
+    "description5":"I developed bots for Twitter, Discord, and Twitch",
+    "description6":"Random fact: <br/>I built my own 3D printer"
+  },
+  "projects":{
+    "title":"Projects",
+    "respository":"GitHub repository"
+  },
+  "otherprojects":{
+    "title":"Other Projects"
+  },
+  "skills":{
+    "title":"Skills",
+    "items":[
+      {"name":"NEXT.JS",
+       "image_file":"next.svg",
+       "responsive": true
+      },
+      {"name":"REACT.JS",
+       "image_file":"reactjs.svg",
+       "responsive": true
+      },
+      {"name":"REACT REDUX",
+       "image_file":"redux.svg",
+       "responsive": false
+      },
+      {"name":"PYTHON",
+       "image_file":"python.svg",
+       "responsive": true
+      },
+      {"name":"JAVASCRIPT",
+       "image_file":"javascript.svg",
+       "responsive": true
+      },
+      {"name":"NODE.JS",
+       "image_file":"node.svg",
+       "responsive": true
+      },
+      {"name":"TYPESCRIPT",
+       "image_file":"typescript.svg",
+       "responsive": true
+      },
+      {"name":"HTML CSS",
+       "image_file":"htmlcss.svg",
+       "responsive": true
+      },
+      {"name":"SCRUM",
+       "image_file":"scrum.svg",
+       "responsive": false
+      },
+      {"name":"FIGMA",
+       "image_file":"figma.svg",
+       "responsive": false
+      },
+      {"name":"MONGO DB",
+      "image_file":"mongo.svg",
+      "responsive": true
+       },
+      {"name":"EXPRESS",
+      "image_file":"express.svg",
+      "responsive": true
+       }
+    ]
+  },
+  "contact":{
+    "title":"Contact",
+    "emailCopied":"email copied!",
+    "name":"Name",
+    "email":"Email",
+    "message":"Message",
+    "send":"Send"
+  }
+  
+},
+"es":{
+  "home":{
+    "title":"Yo",
+    "name":"Hernán Arévalo",
+    "charge":"Desarrollador Frontend",
+    "studies1":"Estudiante de Ingeniería en Sistemas (UTN).",
+    "studies2":"Nivel B2 de Inglés (UNC).",
+    "studies3":"Desarrollador de software.",
+    "location":"Córdoba, Argentina"
+  },
+  "me":{
+    "title":"Sobre mí",
+    "description0":"&emsp;&emsp;Hola! soy <b>Hernán</b>, estudiante de Ingeniería en <b>Sistemas</b>, que también se dedica al mundo del <b>desarrollo web</b>.<br/>&emsp;&emsp;Desde chico fui una persona curiosa y apasionada por entender cómo funcionaban las cosas. Hoy aplico esa misma pasión para aprender nuevas <b>soluciones tecnológicas</b> y plasmar ese conocimiento en nuevos desafíos.<br/>&emsp;&emsp;Actualmente realizo la parte <b>frontend</b> de mis proyectos con <b>React</b> y <b>Next</b>.<br/>&emsp;&emsp;También tuve la oportunidad de desarrollar proyectos con <b>Python</b> y con <b>JavaScript</b> nativo, como también crear el <b>backend</b> de una aplicación, usando MongoDB, Express y Node.",
+    "description1":"Actualmente desarrollando con React y Next",
+    "description2":"Buscando ser parte de un gran equipo y colaborar en proyectos atrapantes",
+    "description3":"Constantemente busco formas de mejorar mis habilidades y ofrecer soluciones innovadoras a los desafíos técnicos",
+    "description4":"Apasionado por aprender nuevas tecnologías y herramientas",
+    "description5":"Desarrollé bots para Twitter, Discord y Twitch",
+    "description6":"Dato random:<br/>Construí mi propia impresora 3D"
+    
+  },
+  "projects":{
+    "title":"Proyectos",
+    "respository":"Repositorio GitHub"
+  },
+  "otherprojects":{
+    "title":"Otros proyectos"
+  },
+  "skills":{
+    "title":"Habilidades",
+    "items":[
+      {"name":"REACT.JS",
+       "image_file":"reactjs.svg"
+      },
+      {"name":"NEXT.JS",
+       "image_file":"next.svg"
+      },
+      {"name":"REACT REDUX",
+       "image_file":"redux.svg"
+      },
+      {"name":"NODE.JS",
+       "image_file":"node.svg"
+      },
+      {"name":"HTML CSS",
+       "image_file":"htmlcss.svg"
+      },
+      {"name":"PYTHON",
+       "image_file":"python.svg"
+      },
+      {"name":"TYPESCRIPT",
+       "image_file":"typescript.svg"
+      },
+      {"name":"SCRUM",
+       "image_file":"scrum.svg"
+      },
+      {"name":"FIGMA",
+       "image_file":"figma.svg"
+      }
+    ]
+  },
+  "contact":{
+    "title":"Contacto",
+    "emailCopied":"email copiado!",
+    "name":"Nombre",
+    "email":"Correo electrónico",
+    "message":"Mensaje",
+    "send":"Enviar"
+
+  }
+  
+}
+}
