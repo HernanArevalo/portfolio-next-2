@@ -15,13 +15,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+
   return (
     <html lang="en" className={font.className}>
 
-      <body className='bg-negro text-blanco relative min-h-screen'>
-        {children}
-
+      <body className='bg-negro text-blanco relative min-h-screen max-w-full'>
         <Navbar />
+
+          {children}
       </body>
     </html>
   );
