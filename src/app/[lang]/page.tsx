@@ -1,5 +1,5 @@
 import data from '@/data/info.json'
-import { HomeSection, MeSection, } from "@/components";
+// import { HomeSection, MeSection, } from "@/components";
 
 interface Props {
   params: {
