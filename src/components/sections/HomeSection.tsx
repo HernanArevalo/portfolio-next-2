@@ -15,10 +15,10 @@ export const HomeSection = ({ info }: Params) => {
     <div className="md:pt-0 md:pl-24 min-h-screen w-screen flex flex-row justify-center items-center gap-12" id="home">
 
     <div className="flex flex-col justify-end items-end gap-0">
-      <span className="text-10xl animate__animated animate__fadeInLeft font-semibold ">
+      <span className="text-8xl md:text-10xl animate__animated animate__fadeInLeft font-semibold ">
         {info.home.title}
       </span>
-      <h1 className="text-gris text-6xl md:text-8xl text-right">Hernán Arévalo</h1>
+      <h1 className="text-gris text-6xl xl:text-8xl text-right w-fit">Hernán Arévalo</h1>
       <h2 className="text-3xl font-medium mb-5">{info.home.charge}</h2>
       <div className="flex flex-row gap-5">
         <a href="https://www.linkedin.com/in/hernanarevalo" target="_blank">
@@ -42,13 +42,15 @@ export const HomeSection = ({ info }: Params) => {
           alt="profile-picture"
           width={280}
           height={280}
+          style={{width: 'auto'}}
+          priority
         />
       </div>
       <div className="relative mb-0">
         <IoCodeSlash className="absolute text-blanco -top-36" size={128} />
       </div>
 
-      <div className="flex flex-col text-2xl gap-1">
+      <div className="flex flex-col text-md xl:text-2xl gap-1">
         <span>• {info.home.studies1}</span>
         <span>• {info.home.studies2}</span>
         <span>• {info.home.studies3}</span>
