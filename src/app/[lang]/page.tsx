@@ -1,5 +1,5 @@
 import data from '@/data/info.json'
-import { HomeSection, Language, Likes } from "@/components";
+import { HomeSection, } from "@/components";
 
 interface Props {
   params: {
@@ -12,15 +12,10 @@ export default function HomePage({ params }: Props) {
   // const router = useRouter()
   // if (['en','es'].includes(lang)) { router.push('/en')}
 
-
-
   const info = (lang == 'en') ? data.en : data.es
-
 
   return (
     <>
-      <Language params={params} />
-      <Likes />
       <div className="">
         <HomeSection info={info}/>
       </div>
