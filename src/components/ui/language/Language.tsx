@@ -16,7 +16,10 @@ export const Language = () => {
 
 
   return (
-    <div className="text-negro font-bold absolute top-2 left-1 rounded-lg bg-gris text-xs border-gris border-2 overflow-hidden">
+    <div className="text-negro font-bold absolute rounded-lg bg-gris text-xs border-gris border-2 overflow-hidden
+                      top-14 left-2
+                      md:top-2 md:left-1
+                      ">
 
       <div
         className={clsx('absolute bg-blanco w-3/6 h-full transition-all duration-300',
