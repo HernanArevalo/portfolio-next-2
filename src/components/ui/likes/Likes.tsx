@@ -27,7 +27,9 @@ export const Likes = () => {
   return (
     <>
       {loaded && 
-      <div className="absolute right-5 top-6 bg-blanco text-negro rounded-2xl p-2 flex flex-row gap-1 justify-center items-center font-bold px-3 likes-container cursor-pointer
+      <div className="absolute  bg-blanco text-negro rounded-2xl p-2 flex flex-row gap-1 justify-center items-center font-bold px-3 likes-container cursor-pointer
+                      top-14 right-2
+                      md:right-5 md:top-6
                       animate__animated animate__flipInY
                       after:border-t-8 after:border-t-blanco after:top-9 after:absolute after:w-0 after:h-0 after:border-l-8 after:border-r-8 after:border-l-transparent after:border-r-transparent
                     " 
