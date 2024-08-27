@@ -16,7 +16,7 @@ export default function HomePage({ params }: Props) {
 
   return (
     <>
-      <div className="">
+      <div className="min-h-screen md:pl-24">
         <HomeSection info={info}/>
       </div>
     </>
