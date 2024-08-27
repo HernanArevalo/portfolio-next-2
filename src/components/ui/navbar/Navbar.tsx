@@ -38,8 +38,7 @@ export const Navbar = () => {
                       text-xl font-bold 
                       fixed top-0 
                       md:-left-32 md:h-screen md:w-auto
-                      left0 h-fit w-screen
-    
+                      left-0 h-fit w-screen
                     
     ">
 			<ul className="flex md:flex-col flex-row justify-evenly md:justify-center h-full md:gap-10">
