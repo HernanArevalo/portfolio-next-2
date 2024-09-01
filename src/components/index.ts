@@ -3,6 +3,7 @@ export * from './ui/language/Language'
 export * from './ui/likes/Likes'
 export * from './ui/navbar/Navbar'
 export * from './ui/rounded-button/RoundedButton'
+export * from './ui/section-title/SectionTitle'
 
 export * from './sections/1_HomeSection/HomeSection'
 export * from './sections/2_MeSection/MeSection'
