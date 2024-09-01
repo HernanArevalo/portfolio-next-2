@@ -4,5 +4,6 @@ export * from './ui/likes/Likes'
 export * from './ui/navbar/Navbar'
 export * from './ui/rounded-button/RoundedButton'
 
-export * from './sections/1_HomeSection'
-export * from './sections/2_MeSection'
+export * from './sections/1_HomeSection/HomeSection'
+export * from './sections/2_MeSection/MeSection'
+export * from './sections/3_ProjectSection/ProjectsSection'

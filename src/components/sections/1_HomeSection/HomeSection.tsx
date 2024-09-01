@@ -1,9 +1,9 @@
 import React from 'react'
-import { RoundedButton } from '../ui/rounded-button/RoundedButton';
 import { IoCodeSlash, IoLogoGithub } from 'react-icons/io5';
 import { LiaLinkedinIn } from 'react-icons/lia';
 import Image from 'next/image';
 import { Info } from '@/interfaces';
+import { RoundedButton } from '@/components';
 
 interface Params {
   info: Info
@@ -56,7 +56,6 @@ export const HomeSection = ({ info }: Params) => {
           height={500}
           width={500}
           objectFit="cover"
-          priority
         />
       </div>
       <div className="relative mb-5 hidden sm:visible">
