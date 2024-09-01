@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={font.className}>
 
-      <body className='bg-negro text-blanco relative min-h-screen max-w-full'>
+      <body className='bg-negro text-blanco relative min-h-screen max-w-full transition-all scroll-smooth'>
         <Navbar />
         <Confetti />
         <Language />
