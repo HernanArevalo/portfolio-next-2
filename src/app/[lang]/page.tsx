@@ -1,5 +1,5 @@
 import data from '@/data/info.json'
-import { HomeSection, MeSection } from "@/components";
+import { HomeSection, MeSection, ProjectsSection } from "@/components";
 
 interface Props {
   params: {
@@ -19,6 +19,7 @@ export default function HomePage({ params }: Props) {
       <div className="min-h-screen md:pl-24">
         <HomeSection info={info}/>
         <MeSection info={info}/>
+        <ProjectsSection info={info}/>
       </div>
     </>
   );
