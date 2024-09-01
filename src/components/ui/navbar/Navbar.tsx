@@ -12,10 +12,10 @@ const navbarItems = [
    iconSmall: <IoPerson size={18}/>,
    href: "#me"
   },
-  {name: "Proyects",
+  {name: "Projects",
    icon: <IoAlbums size={36}/>,
    iconSmall: <IoAlbums size={18}/>,
-   href: "#proyects"
+   href: "#projects"
   },
   {name: "Skills",
    icon: <IoConstruct size={32}/>,
