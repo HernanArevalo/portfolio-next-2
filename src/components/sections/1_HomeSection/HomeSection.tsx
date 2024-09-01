@@ -1,9 +1,9 @@
-import React from 'react'
 import { IoCodeSlash, IoLogoGithub } from 'react-icons/io5';
 import { LiaLinkedinIn } from 'react-icons/lia';
 import Image from 'next/image';
 import { Info } from '@/interfaces';
 import { RoundedButton } from '@/components';
+import Link from 'next/link';
 
 interface Params {
   info: Info
@@ -31,16 +31,16 @@ export const HomeSection = ({ info }: Params) => {
         {info.home.charge}
         </h2>
       <div className="flex flex-row gap-5 mr-2">
-        <a href="https://www.linkedin.com/in/hernanarevalo" target="_blank">
+        <Link href="https://www.linkedin.com/in/hernanarevalo" target="_blank">
           <RoundedButton>
             <LiaLinkedinIn size={32} />
           </RoundedButton>
-        </a>
-        <a href="https://www.github.com/HernanArevalo" target="_blank">
+        </Link>
+        <Link href="https://www.github.com/HernanArevalo" target="_blank">
           <RoundedButton>
             <IoLogoGithub size={32} />
           </RoundedButton>
-        </a>
+        </Link>
       </div>
     </div>
 
@@ -55,7 +55,7 @@ export const HomeSection = ({ info }: Params) => {
           alt="profile-picture"
           height={500}
           width={500}
-          objectFit="cover"
+          priority
         />
       </div>
       <div className="relative mb-5 hidden sm:visible">
